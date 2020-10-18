@@ -24,6 +24,10 @@ h2 {
   background-color: #e8ffff;
 }
 
+.white-section {
+  background-color: #fff;
+}
+
 /* Navigation Bar */
 .navbar {
   text-align: right;
@@ -40,4 +44,25 @@ h2 {
 .city {
   width: 100%;
   height: 600px;
+}
+
+/* Slideshow */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slide-item {
+  padding: 7% 15%;
+}
+
+.slide-text {
+  line-height: 1.5;
+}
+
+.slide-img {
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
 }
