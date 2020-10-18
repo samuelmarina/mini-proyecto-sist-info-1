@@ -197,10 +197,11 @@ hr {
 }
 
 /* Contact Me */
-form {
+.form {
   width: 70%;
   margin: auto;
 }
+
 input[type="text"],
 select,
 textarea {
