@@ -1,0 +1,32 @@
+body {
+  background-color: #e8ffff;
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #0278ae;
+  font-size: 3.5rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sora", sans-serif;
+}
+
+h2 {
+  color: #0278ae;
+  font-size: 2rem;
+  padding-bottom: 10px;
+  font-family: "Rajdhani", sans-serif;
+}
+.city {
+  width: 50%;
+}
+
+.navbar {
+  text-align: right;
+  margin: 20px 20px auto auto;
+}
+
+.navbar-button {
+  padding-right: 10px;
+}
