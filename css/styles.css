@@ -1,8 +1,8 @@
 body {
-  background-color: #e8ffff;
-  margin: 0;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: #e8ffff;
 }
 
 h1 {
@@ -18,11 +18,13 @@ h2 {
   padding-bottom: 10px;
   font-family: "Rajdhani", sans-serif;
 }
-.city {
-  width: 100%;
-  height: 600px;
+
+/* Sections */
+.colored-section {
+  background-color: #e8ffff;
 }
 
+/* Navigation Bar */
 .navbar {
   text-align: right;
   margin: 20px 20px auto auto;
@@ -32,4 +34,10 @@ h2 {
   padding-right: 10px;
   color: #0278ae;
   font-weight: bold;
+}
+
+/* Header Image */
+.city {
+  width: 100%;
+  height: 600px;
 }
