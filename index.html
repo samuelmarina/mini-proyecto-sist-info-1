@@ -12,6 +12,9 @@
     <!-- Favicon -->
     <link rel="icon" href="images/cool.png">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/fa2f3b5d8b.js" crossorigin="anonymous"></script>
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rajdhani:wght@300&family=Sora:wght@700&display=swap" rel="stylesheet">
 </head>
@@ -79,21 +82,21 @@
                 <h3>Nani Kore?</h3>
                 <p>Technologies used: JavaScript, React Native, Expo, Clarifai</p>
                 <p>Date: September 2020</p>
-                <a href="https://github.com/samuelmarina/nani-kore">GitHub Repo</a>
+                <a href="https://github.com/samuelmarina/nani-kore" target="_blank">GitHub Repo</a>
             </div>
             <div class="project-row">
                 <img class="project-img-right" src="images/hambruna.jpg" alt="hambruna">
                 <h3>Hambruna Games</h3>
                 <p>Technologies used: Python, Heroku, Firebase Realtime Database</p>
                 <p>Date: May 2020</p>
-                <a href="https://github.com/samuelmarina/hambruna-games">GitHub Repo</a>
+                <a href="https://github.com/samuelmarina/hambruna-games" target="_blank">GitHub Repo</a>
             </div>
             <div class="project-row">
                 <img class="project-img-left" src="images/wtf.jpg" alt="vida">
                 <h3>Qué c*ño hago con mi vida?</h3>
                 <p>Technologies used: Java, Android Studio Firebase Realtime Database</p>
                 <p>Date: April 2020</p>
-                <a href="https://github.com/samuelmarina/que-hago-con-mi-vida">GitHub Repo</a>
+                <a href="https://github.com/samuelmarina/que-hago-con-mi-vida" target="_blank">GitHub Repo</a>
             </div>
         </div>
         <hr>
@@ -107,29 +110,43 @@
 
     <section class="white-section" id="contact-me">
         <h1>Contact Me</h1>
-        <form action="">
-            <div class="input">
-                <label for="name">Name</label>
-                <br>
-                <input type="text" id="name" name="name">
-            </div>
+        <div class="form">
+            <form action="" onsubmit="send()"> 
+                <div class="input">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" name="name">
+                </div>
 
-            <div class="input">
-                <label for="email">Email</label>
-                <br>
-                <input type="email" id="email" name="email">
-            </div>
+                <div class="input">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" name="email">
+                </div>
 
-            <div class="input">
-                <label for="message">Message</label>
-                <br>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            </div>
+                <div class="input">
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
 
-            <div class="input">
-                <input type="submit" value="Submit">
-            </div>
-        </form>
+                <div class="input">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <div class="social-media">
+            <a class="icon" href="https://instagram.com/samuellmiller" target="_blank">
+                <i class="social-icon fab fa-instagram"></i>
+            </a>
+            <a class="icon"  href="https://youtube.com/sammillervlogs" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a class="icon"  href="https://wa.me/584149900103" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            
+        </div>
     </section>
     
 </body>

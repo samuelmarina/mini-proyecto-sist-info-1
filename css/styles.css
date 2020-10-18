@@ -239,3 +239,13 @@ input[type="submit"] {
   font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
 }
+
+.social-media {
+  padding-bottom: 20px;
+}
+
+.icon {
+  margin-right: 20px;
+  color: #0278ae;
+  font-size: 2rem;
+}
