@@ -167,8 +167,14 @@ hr {
   text-align: left;
 }
 
-.project-img {
+.project-img-left {
   width: 25%;
   float: left;
+  margin-right: 30px;
+}
+
+.project-img-right {
+  width: 25%;
+  float: right;
   margin-right: 30px;
 }
