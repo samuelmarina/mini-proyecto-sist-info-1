@@ -12,12 +12,23 @@ h1 {
   font-family: "Sora", sans-serif;
 }
 
-h2,
-p {
+h2 {
   color: #0278ae;
   font-size: 2rem;
   padding-bottom: 10px;
   font-family: "Rajdhani", sans-serif;
+}
+
+h3 {
+  color: #0278ae;
+  font-size: 2rem;
+  font-family: "Rajdhani", sans-serif;
+}
+
+p {
+  color: #0278ae;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1rem;
 }
 
 hr {
@@ -148,4 +159,16 @@ hr {
 
 .profile-intro {
   font-size: 2rem;
+}
+
+.project-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.project-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
